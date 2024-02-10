@@ -1,0 +1,137 @@
+@media (max-width : 600px) {
+    body , html{
+        overflow-x: hidden;
+    }
+
+    nav{
+        height: 15%;
+        width: 100%;
+        padding: 0vmax 3vmax;
+        flex-wrap: wrap;
+    }
+    .nav-part2{
+        display: flex;
+        align-items: center;
+        gap: 0.5vmax;
+        flex-wrap: wrap;
+    }
+    .content1{
+        height: 70%;
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .content1 h1 , .content1 h6{
+        width: 85%;
+    }
+    .details {
+        display: flex;
+        align-items: center;
+        gap: 0.4vmax;
+        flex-wrap: wrap;
+    }
+    .detail > input{
+        padding: 1vmax  2.3vmax;
+    }
+    .features1{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .content2{
+        display: flex;
+        align-items: center;
+        justify-content:  center;
+    }
+    .content2 > p{
+        width: 90%;
+        line-height: 3vmax;
+        text-align: center;
+    }
+    .features2{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .features2 img{
+        height: 28vmax;
+    }
+    .content3{
+        display: flex;
+        align-items: center;
+        justify-content:  center;
+    }
+    .content3 > h1{
+        /* width: 80%; */
+        text-align: center;
+    }
+    .content3 > p{
+        width: 90%;
+        line-height: 3vmax;
+        text-align: center;
+    }
+    .features3{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .features2 img{
+        height: 30vmax;
+    }
+    .content4{
+        display: flex;
+        align-items: center;
+        justify-content:  center;
+        flex-direction: column;
+    }
+    .content4 > h1{
+        /* width: 80%; */
+        text-align: center;
+    }
+    .content4 > p{
+        width: 90%;
+        line-height: 3vmax;
+        text-align: center;
+    }
+    .features4{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4vmax;
+    }
+    .features4 img{
+        height: 35vmax;
+        width: 40vmax;
+    }
+    .content5{
+        display: flex;
+        align-items: center;
+        justify-content:  center;
+        flex-direction: column;
+    }
+    .content5 > h1{
+        font-size: 3.5vmax;
+        text-align: center;
+        line-height: 4.5vmax;
+    }
+    .content5 > p{
+        width: 90%;
+        line-height: 3vmax;
+        text-align: center;
+    }
+    .email-btn{
+        margin-top: 1.4vmax;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2vmax;  
+    }
+}
